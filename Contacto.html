@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<title>NAJIM-Contacto</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/Contacto.css">
+  <link rel="stylesheet" href="css/formulario.css">
+  
+    
+  <link rel="shortcut icon" href="images/LOGONAJIM.png" type="image/x-icon">
+</head>
+
+
+<body>
+
+<div id="divCabeza"></div>
+
+	<header>
+     <div id="divUno"></div>
+
+      <div id="divLogo">
+      	<img src="images/LOGO3.png" width="100%" height="105%">
+      </div>
+
+      <div id="divCuatro"></div>
+      <div id="divTres"></div>
+
+    
+<div class="contenedorMenu">
+   <input type="checkbox" id="btn_menu">
+      
+      <label for="btn_menu"><img src="images/menu.png" width="40px" height="40px"></label>
+
+  <nav class="menu">
+        <ul>
+ <li id="li1" ><a href="index.html">Inicio</a></li>
+  <li id="li1"><a  href="QuienesSomos.html" >¿Quiénes Somos?</a></li>
+  <li  id="li1"><a  href="MisionVision.html">Misión y Visión</a>
+  <li  id="li1"><a  href="ProductosServicios.html">Productos y Servicios</a></li>
+  <li id="li1"><a  href="Contacto.html">Contacto</a></li>
+   <li id="li1"><a  href="Ubicanos.html">Ubícanos</a></li>
+        </ul>
+      </nav>
+</div>
+
+      <div id="divDos"></div> 
+	</header>
+
+
+<main>
+  
+<div id="divMain">
+ 
+<div id="divTexto1"">
+
+<div id="contacto1">
+  <div id="cont1_image">
+    <img src="images/tel.png" width="100%" height="80%" style="border-radius: 10px 0px 0px 10px;">
+  </div>
+  <div id="cont1_info">
+  <textarea id="txt" disabled="true" style="box-sizing: border-box; 
+  padding-top:7px;  font-size: 15px;" >Oficina: 5575742373</textarea>
+  </div>
+</div>
+<div id="contacto1">
+    <div id="cont1_image">
+      <img src="images/whats.png" width="100%" height="80%" style="border-radius: 10px 0px 0px 10px;">
+    </div>
+     <div id="cont1_info">
+        <textarea id="txt" disabled="true" style="box-sizing: border-box; 
+  padding-top:7px;  font-size: 15px;" >Celular: 5522976959</textarea>
+     </div>
+</div>
+<div id="contacto1">
+    <div id="cont1_image">
+      <img src="images/whats.png" width="100%" height="80%" style="border-radius: 10px 0px 0px 10px;">
+    </div>
+     <div id="cont1_info">
+       <textarea id="txt" disabled="true" style="box-sizing: border-box; 
+  padding-top:7px;  font-size: 15px;" >Celular 2: 5540650316</textarea>
+     </div>
+</div>
+<div id="contacto1">
+    <div id="cont1_image">
+      <img src="images/EmailIcon.png" width="100%" height="80%" style="border-radius: 10px 0px 0px 10px;">
+    </div>
+     <div id="cont1_info">
+  
+          <h2 id="corr">Correo: officecleaning.enava
+          @gmail.com</h2>
+     </div>
+</div>
+<div id="contacto1">
+    <div id="cont1_image"><img src="images/EmailIcon.png" width="100%" height="80%" style="border-radius: 10px 0px 0px 10px;">
+    </div>
+     <div id="cont1_info">
+    <h2  id="corr">Correo 2: officecleaning.ejimenez@
+    gmail.com</h2> 
+ </div>
+</div>
+ 
+</div>
+
+<div id="divTexto2"">
+  <form action="actionsPHP/enviar.php" method="post">
+  <h2 id="Contact" >CONTACTO</h2>
+  <input type="text" id="nombre" name="nombre" placeholder="Nombre" required="">
+  <input type="email" id="correo" name="correo" placeholder="Correo" required="">
+  <input type="text" id="telefono" name="telefono" placeholder="Teléfono" required="">
+    <textarea name="mensaje" placeholder="Escriba aquí su mensaje" required=""></textarea> 
+    <input type="submit"  value ="ENVIAR" id="submit" style="font-size: 18px; font-weight: bold; border-radius: 5px; text-align: center;">
+</form>
+</div>
+
+</div>
+
+
+
+
+</main>
+
+</body>
+
+
+</html>
